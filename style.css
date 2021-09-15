@@ -1,0 +1,41 @@
+* {
+  font-family: "Sen", sans-serif;
+  font-weight: 100;
+}
+.nav__responsive-ul {
+  display: none;
+}
+.nav {
+  background-color: darkslateblue;
+}
+.nav__li {
+  display: inline-block;
+  padding: 9px;
+  color: #ffffff;
+}
+
+.nav__li:hover > a {
+  color: #ccc;
+}
+.nav__li:hover {
+  color: #ccc;
+}
+.nav__li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.nav__li i {
+  width: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+  .nav__ul {
+    display: none;
+  }
+  .nav__responsive-ul {
+    display: block;
+  }
+}
